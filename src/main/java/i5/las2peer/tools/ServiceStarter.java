@@ -39,7 +39,7 @@ public class ServiceStarter {
 	
 	
 	public static final String DEFAULT_LOG = "./log/las2peer.log";
-	public static final String DEFAULT_BOOTSTRAP = "127.0.0.1:9000";
+	public static final String DEFAULT_BOOTSTRAP = "";
 	
 	public static final int DEFAULT_PORT = 9010;
 	public static final String DEFAULT_PASTRY_DIR = ".pastry_data";
