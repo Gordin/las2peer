@@ -224,7 +224,7 @@ public class FileSystemRepository implements Repository {
 		File f = new File ( directory );
 		
 		if ( ! f.isDirectory() ) 
-			throw new IllegalArgumentException( "Given path is not a directory" );
+			throw new IllegalArgumentException( "Given path is not a directory: " + directory);
 		
 		File[] entries = f.listFiles ();
 		
